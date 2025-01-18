@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-size: 22px;
+    background-color: blanchedalmond;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: non;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    background-color: rgb(221, 103, 82);
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-img{
+    width: 150px;
+
+}
+.header-list{
+    display: flex;
+    gap: 50px;
+}
+.header-link{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.header-link:hover{
+    color: blanchedalmond;
+    font-weight: 700;
+}
+/* головна секція*/
+.hero{
+    padding: 50px 0;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-image{
+    width: 550px;
+    padding-right: 50px;
+
+}
+.hero-title{
+    font-size: 48px;
+    color: rgb(113, 27, 12);
+    font-weight: 700px;
+}
+/* інградієнти для тіста */
+.dough{
+padding: 50px 0;
+background-color: rgb(255, 167, 123);
+}
+.dough-container{
+display: flex;
+align-items: center;
+gap: 50px;
+}
+.dough-image{
+width: 550px;
+}
+.dough-title{
+color: rgb(113, 27, 12);
+}
+.dough-list{
+    list-style: disc;
+    
+    margin-left: 50px;
+    
+    
+}
+.dough-item{
+    margin-left: 30px;
+}
+.footer{
+    padding: 10px 0;
+    background-color: rgb(221, 103, 82);
+}
+.footer-container{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+.footer-text{
+color: white;
+font-size: 18px;
+}
+.footer-img{
+    width: 30px;
+}
+.filling{
+    padding: 50px 0;
+}
+.filling-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filling-img{
+    width: 550px;
+    padding-right: 50px;
+
+}
+.filling-title{
+    font-size: 33px;
+    color: rgb(113, 27, 12);
+    font-weight: 700px;}
+
+
+.filling-list{
+    margin-left: 50px;
+}
